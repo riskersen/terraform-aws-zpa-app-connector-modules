@@ -7,7 +7,6 @@ variable "name_prefix" {
 variable "resource_tag" {
   type        = string
   description = "A tag to associate to all the network module resources"
-  default     = null
 }
 
 variable "global_tags" {
