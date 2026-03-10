@@ -7,7 +7,6 @@ variable "name_prefix" {
 variable "resource_tag" {
   type        = string
   description = "A tag to associate to all the App Connector Security Group module resources"
-  default     = null
 }
 
 variable "global_tags" {
@@ -37,4 +36,5 @@ variable "byo_security_group_id" {
   type        = list(string)
   description = "Management Security Group ID for App Connector association"
   default     = null
+
 }
